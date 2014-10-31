@@ -1,5 +1,11 @@
 [
  {
+   "remote":      "blobs",
+   "repository":  "proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "revision":    "cm-11.0"
+ },
+ {
    "repository":  "android_device_lge_g3-common",
    "target_path": "device/lge/g3-common"
  },
