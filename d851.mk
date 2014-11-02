@@ -16,6 +16,8 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/lge/d851/d851-vendor.mk)
 
