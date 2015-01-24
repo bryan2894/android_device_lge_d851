@@ -25,8 +25,12 @@ $(call inherit-product-if-exists, vendor/lge/d851/d851-vendor.mk)
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/configs/mixer_paths_bcm.xml:system/etc/mixer_paths.xml
 
+# GPS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
+
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Thermal
 PRODUCT_COPY_FILES += \
