@@ -7,13 +7,13 @@
  },
  {
    "remote":      "github",
-   "repository":  "AOSPA-legacy/android_device_lge_g3-common",
+   "repository":  "AOSPA-L/android_device_lge_g3-common",
    "target_path": "device/lge/g3-common",
    "revision":    "lollipop-mr1"
  },
  {
    "remote":      "github",
-   "repository":  "AOSPA-legacy/android_kernel_lge_g3",
+   "repository":  "AOSPA-L/android_kernel_lge_g3",
    "target_path": "kernel/lge/g3",
    "revision":    "lollipop-mr1"
  },
