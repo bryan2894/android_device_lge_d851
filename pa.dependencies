@@ -18,7 +18,7 @@
    "revision":    "lollipop-mr1"
  },
  {
-   "remote":      "cm",
+   "remote":      "github",
    "repository":  "CyanogenMod/android_device_qcom_common",
    "target_path": "device/qcom/common",
    "revision":    "cm-12.1"
